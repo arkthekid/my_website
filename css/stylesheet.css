@@ -513,6 +513,7 @@ h3 { font-size: var(--fs-h3) }
     border-radius: 10px;
     padding: 0.2em 1.2em;
     width: max-content;
+    margin: 0.5em;
 }
 
 .project-link-button:link,
@@ -675,10 +676,12 @@ h3 { font-size: var(--fs-h3) }
 
     .left-button {
         grid-column: 2 / 3;
+        margin-right: 3em;
     }
 
     .right-button {
         grid-column: 4 / 5;
+        margin-left: 3em;
     }
 }
 
